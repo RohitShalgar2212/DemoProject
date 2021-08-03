@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+  label 'centos'
+   }
  
   tools {
   maven 'Maven3'
